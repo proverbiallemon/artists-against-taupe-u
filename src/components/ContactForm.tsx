@@ -36,9 +36,10 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="bg-gray-100 py-16">
+    <section id="contact" className="max-w-screen-lg mx-auto bg-white rounded-lg shadow-lg p-8 my-8 text-gray-800">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-8">Join the Movement</h2>
+        <h3 className="font-bold text-center mb-8">Fill out the form below and someone will contract you.d</h3>
         <form onSubmit={handleSubmit} className="max-w-3xl mx-auto">
           <div className="flex flex-wrap -mx-2 mb-6">
             <div className="w-full md:w-1/2 px-2 mb-6 md:mb-0">
